@@ -1,0 +1,16 @@
+name: simple CI/CD Workflow
+
+run:
+  push:
+    branches:
+      -main:
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    
+
+    steps:
+      -name: print a message 
+       run: "This is my first CI/CD workflow"
