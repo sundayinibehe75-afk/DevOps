@@ -1,4 +1,4 @@
-name: simple CI/CD Workflow
+name: Simple CI/CD Workflow
 
 on:
   push:
@@ -9,8 +9,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
 
-    
-
-   steps:
-     - name: print a message 
-       run: echo "This is my first CI/CD workflow"
+    steps:
+      - name: Print a message
+        run: echo "This is my first CI/CD workflow"
