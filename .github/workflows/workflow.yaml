@@ -1,9 +1,9 @@
 name: simple CI/CD Workflow
 
-run:
+on:
   push:
     branches:
-      -main:
+      - main
 
 jobs:
   first-job:
@@ -11,6 +11,6 @@ jobs:
 
     
 
-  steps:
-    - name: print a message 
-    run: echo "This is my first CI/CD workflow"
+   steps:
+     - name: print a message 
+       run: echo "This is my first CI/CD workflow"
