@@ -12,5 +12,5 @@ jobs:
     
 
     steps:
-      -name: print a message 
-       run: "This is my first CI/CD workflow"
+      - name: print a message 
+       run: echo "This is my first CI/CD workflow"
